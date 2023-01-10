@@ -1,0 +1,21 @@
+.image-detail-movie {
+    width: 218px;
+    height: 345px;
+    border-radius: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.content-detail {
+    // margin: 25px 10px;
+    .text-detail {
+        .left-detail {
+            font-size: 18px;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+        .right-detail {
+            margin-left: 20px;
+        }
+    }
+}

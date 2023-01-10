@@ -1,0 +1,93 @@
+.footer-29 {
+    background-color: #222;
+    color: #fff;
+    .footer-top-29 {
+        display: grid;
+        grid-template-columns: 2fr 1fr 2fr 1fr;
+        grid-gap: 40px;
+        .footer-title {
+            color: #fff;
+            font-size: 20px;
+            line-height: 25px;
+            text-transform: capitalize;
+            margin-bottom: 25px;
+            font-weight: 600;
+        }
+        .footer-content {
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 25px;
+            color: #aaa;
+        }
+        :hover {
+            color: #fff;
+        }
+        .footer-1 {
+            .fa {
+                width: 20px;
+            }
+
+            .main-social-footer-29 {
+                margin-top: 20px;
+                .facebook:hover {
+                    background: #3b5998;
+                    color: #fff;
+                }
+                .twitter:hover {
+                    background: #1da1f2;
+                    color: #fff;
+                }
+                .instagram:hover {
+                    background: #c13584;
+                    color: #fff;
+                }
+                .linkedin:hover {
+                    background: #0077b5;
+                    color: #fff;
+                }
+                .google-plus:hover {
+                    background: #dd4b39;
+                    color: #fff;
+                }
+                a {
+                    border-radius: 4px;
+                    margin-right: 10px;
+                    color: #777;
+                    background: #252525;
+                    width: 35px;
+                    height: 35px;
+                    line-height: 35px;
+                    display: inline-block;
+                    text-align: center;
+                    font-size: 14px;
+                    transition: 0.3s;
+                }
+            }
+        }
+        .images-col {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-gap: 10px;
+            .img-footer {
+                max-width: 100%;
+                border-radius: 10px;
+                height: 89.66px;
+                width: 119.55px;
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+        }
+        .footer-4 {
+            .name-cinema-footer {
+                cursor: pointer;
+                width: 200px;
+            }
+        }
+    }
+    .bottom-copies {
+        border-top: 1px solid #454545;
+        padding-top: 2em;
+        margin-top: 2em;
+    }
+}

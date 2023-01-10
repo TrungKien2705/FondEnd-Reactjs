@@ -1,0 +1,89 @@
+.w3l-covers-18 {
+    .covers-main {
+        padding: 40px 0px;
+        background: #f9f9f9;
+    }
+    .main-titles-head {
+        margin: 0px 0px 16px;
+        max-width: 604px;
+        .header-name {
+            font-size: 30px;
+            line-height: 40px;
+        }
+    }
+    .gallery-image {
+        .img-box {
+            background: #ededed;
+            padding: 17px;
+            border: 10px;
+            border-radius: 10px;
+            margin: 10px;
+            max-height: 600px;
+            .image-movie {
+                max-width: 100%;
+                border-radius: 10px;
+                width: 227px;
+                height: 360px;
+                margin-left: auto;
+                margin-right: auto;
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+            .my-2 {
+                max-height: 70px;
+                min-height: 70px;
+                .title-movie {
+                    cursor: pointer;
+                    font-size: 18px;
+                    color: #444;
+                    display: inline-block;
+                    font-weight: 600;
+                    margin-top: 15px;
+                }
+                :hover {
+                    color: #fcbf1e;
+                }
+            }
+            .blog-date {
+                // display: grid;
+                grid-template-columns: auto 1fr;
+                grid-gap: 10px;
+                .pos-date {
+                    font-size: 15px;
+                    line-height: 10px;
+                    .title-cate {
+                        margin-right: 5px;
+                        text-transform: uppercase;
+                    }
+                }
+            }
+            .top-gap {
+                border-top: 1px solid #ddd;
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                padding-top: 20px;
+                align-items: center;
+                grid-gap: 10px;
+                .btn-booking {
+                    border: none;
+                    padding: 10px 20px;
+                    background-color: #103755;
+                    color: #fff;
+                    font-size: 16px;
+                    line-height: 25px;
+                    display: inline-block;
+                    text-decoration: none;
+                    font-weight: 600;
+                    outline: none;
+                    border-radius: 4px;
+                    text-transform: capitalize;
+                    width: 180px;
+                }
+                :hover {
+                    background-color: #fcbf1e;
+                }
+            }
+        }
+    }
+}

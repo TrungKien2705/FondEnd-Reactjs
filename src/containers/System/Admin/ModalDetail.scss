@@ -1,0 +1,19 @@
+.rounded-circle {
+    height: 186px;
+    width: 186px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.image-upload {
+    padding: 5px;
+    text-align: center;
+    border-radius: 3px;
+    background: #ddd;
+    cursor: pointer;
+    width: 100px;
+    height: 33px;
+    &:hover {
+        background: rgb(176, 176, 176);
+    }
+}

@@ -1,0 +1,68 @@
+.new-detail-container {
+    background-color: #f5f5f5;
+    width: 100%;
+    // height: 120vh;
+    padding-bottom: 20px;
+    .new-detail-content {
+        padding-top: 60px;
+        .new-detail {
+            display: block;
+            .new-title {
+                margin-bottom: 42px;
+                font-size: 20px;
+                text-transform: capitalize;
+                font-weight: 600;
+            }
+            .image-new {
+                border-radius: 10px;
+                width: 95%;
+                height: 300px;
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+            .new-des {
+                margin-top: 10px;
+            }
+            .new-contact {
+                margin-top: 20px;
+                .hotline {
+                    margin-left: 10px;
+                    font-size: 18px;
+                }
+            }
+        }
+        .movie-hot-container {
+            // display: block;
+            padding-left: 30px;
+        }
+        .movie-hot {
+            margin-top: 25px;
+            .image-movie-cinema {
+                width: 242.5px;
+                height: 383.75px;
+                border-radius: 10px;
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+            .name-movie {
+                cursor: pointer;
+                font-size: 15px;
+                color: #444;
+                display: inline-block;
+                font-weight: 600;
+                margin-top: 5px;
+                &:hover {
+                    color: #eeb808;
+                }
+            }
+        }
+        .title-movie-new {
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 33px;
+            font-weight: 600;
+        }
+    }
+}

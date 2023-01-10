@@ -1,0 +1,84 @@
+.title-manege-mobie {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.btn-create-movie {
+    margin: 15px 0;
+}
+.table {
+    .image-movie {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 150px;
+        height: 150px;
+    }
+    .detail-movie {
+        color: #ffd43b;
+        // margin: 10px;
+    }
+    .settings-movie {
+        color: #2196f3;
+        margin: 10px;
+    }
+    .delete-movie {
+        color: #f44336;
+        // margin: 10px;
+    }
+}
+.movie-point {
+    cursor: pointer;
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    padding-top: 5px;
+}
+.pagination > a,
+.pagination > span {
+    color: #383838;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    margin: 0 2px 5px;
+    min-width: 20px;
+    padding: 0 10px;
+    height: 40px;
+    text-decoration: none;
+    position: relative;
+    border-radius: 5px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.pagination > span {
+    pointer-events: none;
+}
+.pagination svg {
+    height: 24px;
+    width: 24px;
+}
+.pagination > a.page-active {
+    background: #2ea4b5;
+    cursor: pointer;
+    color: #fff;
+}
+.pagination > a {
+    cursor: pointer;
+}
+.pagination > a:hover {
+    background: #2ea4b5;
+    color: #fff;
+}
+.create-movie {
+    display: block;
+}

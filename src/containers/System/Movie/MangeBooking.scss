@@ -1,0 +1,20 @@
+div._loading_overlay_wrapper {
+    position: unset;
+    ._loading_overlay_overlay {
+        z-index: 100100;
+    }
+}
+.no-data {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+.manage-booking-container {
+    .m-p-title {
+        text-transform: uppercase;
+        margin-top: 20px;
+        font-weight: 600;
+        font-size: 20px;
+        text-align: center;
+    }
+}

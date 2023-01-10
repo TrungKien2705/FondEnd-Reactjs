@@ -1,0 +1,23 @@
+.image-new {
+    width: 110px;
+    height: 110px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.action-new {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .detail-new {
+        color: #ffd43b !important;
+        margin-right: 10px;
+    }
+    .settings-new {
+        color: #2196f3 !important;
+        margin-right: 10px;
+    }
+    .delete-new {
+        color: #f44336 !important;
+    }
+}

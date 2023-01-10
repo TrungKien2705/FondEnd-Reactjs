@@ -1,0 +1,105 @@
+.slick-prev:before,
+.slick-next:before {
+    font-family: "slick" !important;
+    font-size: 70px !important;
+    line-height: 1 !important;
+    color: #959595 !important;
+    opacity: 0.75 !important;
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale !important;
+}
+
+.slick-prev:before {
+    content: "‹" !important;
+}
+[dir="rtl"] .slick-prev:before {
+    content: "›" !important;
+}
+
+[dir="rtl"] .slick-next {
+    left: -10px !important;
+    top: 70px !important;
+    right: auto !important;
+}
+.slick-next:before {
+    content: "›" !important;
+}
+[dir="rtl"] .slick-next:before {
+    content: "‹" !important;
+}
+
+.slick-prev {
+    left: -10px !important;
+    z-index: 99 !important;
+    background: transparent !important;
+}
+
+.slick-next {
+    right: -10px !important;
+    background: transparent !important;
+}
+.slick-disabled {
+    display: none !important;
+}
+
+.team-single-main {
+    padding: 70px 0px;
+    .cinema-container {
+        display: flex !important;
+    }
+    .img-cinema {
+        width: 604px;
+        height: 345.14px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        max-width: 100%;
+        border-radius: 10px;
+    }
+    .nature-row {
+        .small-title {
+            font-size: 16px;
+            line-height: 20px;
+            color: #999;
+            text-transform: uppercase;
+            margin-bottom: 25px;
+        }
+        .title-cinema {
+            color: #222;
+            line-height: 45px;
+            font-size: 35px;
+            font-weight: 700;
+            margin-bottom: 20px;
+            text-transform: capitalize;
+        }
+        .des-cinema {
+            // height: 78px;
+            // width: 604px;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            font-size: 16px;
+            line-height: 26px;
+            color: #777;
+        }
+        .action-button {
+            border: none;
+            padding: 12px 30px;
+            background-color: #103755;
+            color: #fff;
+            font-size: 16px;
+            line-height: 25px;
+            display: inline-block;
+            text-decoration: none;
+            font-weight: 600;
+            outline: none;
+            border-radius: 4px;
+            text-transform: capitalize;
+            :hover {
+                background-color: #fcbf1e;
+            }
+        }
+    }
+}
